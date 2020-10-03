@@ -9,7 +9,7 @@
  * - checking for a win,
  * - removing a life from the scoreboard
  */
-class Game() {
+class Game {
   constructor() {
     this.missed = 0; // Used to track the number of missed guesses by the player, initially 0.
     this.phrases = []; // An array of Phrase objects to use with the game; initially empty

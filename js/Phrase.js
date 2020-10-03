@@ -4,8 +4,8 @@
  *
  * Create a Phrase class to handle the creation of phrases
 */
-class Phrase(phrase) {
-  constructor() {
-    this.phrase​ = phrase.toLowerCase(); // the actual phrase the Phrase object is representing, converted to all lower case
+class Phrase {
+  constructor(phrase) {
+    this.phrase = phrase.toLowerCase(); // the actual phrase the Phrase object is representing, converted to all lower case
   }
 }
